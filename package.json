@@ -1,0 +1,21 @@
+{
+  "name": "qh-components-doc",
+  "version": "1.0.0",
+  "description": "qh-components组件文档",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "author": "lx",
+  "license": "ISC",
+  "devDependencies": {
+    "element-plus": "^2.2.16",
+    "qh-components": "^1.0.0",
+    "vitepress": "^1.0.0-alpha.13"
+  }
+}
