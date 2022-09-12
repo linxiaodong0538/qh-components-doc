@@ -16,6 +16,7 @@
   import { reactive, ref } from "vue";
 
   let dialogVisible = ref(false);
+  const title = ref<string>("弹框");
 
     const dialogOptions = reactive([
     {
